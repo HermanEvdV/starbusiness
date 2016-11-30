@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+/* NAVIGATION BAR */
+
+.row_nav {
+	background-color: #E6E6E6; /* Blauw */
+	/*height: 80px;*/
+	width: 100%;
+	position: absolute; 
+    bottom: 0; 
+}
+
+
+nav {
+	/*height:3.125em;*/
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	/*text-align:center;*/
+	clear:both;
+	position:relative;
+	z-index:99999;
+}
+
+
+	/* Style the ul and list */
+nav ul {
+	display:inline-block;
+	margin: 0;
+    list-style-type: none;
+    padding: 0;
+	line-height: 3.125em;
+}
+	/* Creating horizontal list with spacing */
+nav li {
+	display: inline;
+	float:left;
+	max-width: 125px;
+	color: #141f78;
+	text-align:center;
+}
+	/* Style for menu links */
+nav li a {
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	min-width: 170px;
+}
+/* FOR MOBILE / REPONSIVE MENU */
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	text-decoration: none;
+	color: #fff;
+	background: #153f8b;
+	text-align: center;
+	padding: 15px 0;
+	display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+/*     R E S P O N S I V E S T Y L I N G         */
+@media screen and (max-width : 944px){
+	/*Make dropdown links appear inline*/
+nav ul {
+	position: static;
+	display: none;
+	margin: 0;
+}
+	/*Create vertical spacing*/
+nav li {
+	background-color:#153f8b;
+	margin-bottom: 1px;
+	max-width: 100%;
+}
+nav li:last-child {
+    margin-bottom: 25px;
+} 
+nav li a {
+	width: 100%;
+}
+	/*Make all menu links full width*/
+nav ul li, li a {
+	width: 100%;
+}
+nav li ul li {
+	background-color: #106AA2;
+}
+	/*Display 'show menu' link*/
+.show-menu {
+	display:block;
+}
+}

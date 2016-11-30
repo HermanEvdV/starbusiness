@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Broodtekst: Roboto slab regular, 14pt (18.666667px) / interlinie 23 pt (30.666667px), kleur #333333 of wit */
+/* Subkop geschreven: Caveat, 40pt (53.333333px)/ interlinie 31 pt (41.333333px) */
+/* Hoofdkop geschreven: Caveat, 64pt (85.333333px) / interlinie 51 pt (68px) */
+
+
+body {
+	font-family: 'Caveat', cursive;	
+	font-family: 'Roboto Slab', serif;
+	/*font-size: 18.666667px;*/
+	color: #003770;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+
+.row_header {
+	background-color: #141f78; /* Blauw */
+	width: 100%;
+}
+
+.head_wrapper {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	overflow: hidden;
+	position: relative;	
+	height: 300px;
+}
+
+
+header .lhp {
+	padding-top: 60px;
+	padding-left: 30px;
+	width: 150px;
+	float: left;
+	color: #ffffff;
+}
+
+.logo {
+	float: left;
+	clear: both;
+	width: 240px;
+	height: 150px;
+	padding-top: 30px;
+}
+
+.quote {
+	font-family: Caveat;
+	font-size: 22pt;
+}
+
+.happy_people {
+	position: absolute;
+	width: 460px;
+	float: right;
+	padding-right: 230px;
+	bottom: 0;
+}
+
+.green_person {
+    bottom: 70px;
+    padding-left: 80px;
+    position: absolute;
+    width: 70px;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
+section {
+	display: block;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px 0;
+}
+article {
+	/*padding: 40px 0;*/
+}
+
+.clearfix:after{
+content: ".";
+visibility: hidden;
+zoom: 1; /* fix IE */
+display: block;
+height: 0;
+clear: both;
+} 
+
+.row {
+	float: left;
+	width: 100%;
+}
+
+.column {
+	float: left;
+}
+.onequarter {
+	width: 25%;
+}
+.half {
+	width: 50%;
+	float: left;
+}
+.threequarter {
+	width: 75%;
+}
+.full {
+	min-width: 100%;
+	display: block;
+}
+
+.onefifth {
+	width: 20%;
+}
+
+
+.twofifth {
+	width: 40%;
+}
+
+.threefifth {
+	width: 60%;
+}
+
+.fourfifth {
+	width: 80%;     
+}
+
+
+
+
+
+/* Strook INTRO */
+.intro{
+	background-color: #ffffff;
+}
+/* Strook INTRO */
+.usp{
+	background-color: #B9CE00;
+}
+/* Strook INTRO */
+.about_us{
+	background-color: #003770;
+	color: #ffffff;
+}
+/* Strook INTRO */
+.people{
+	background-color: #E6E6E6;
+}
+/* Strook INTRO */
+.publications{
+	background-color: #ffffff;
+}
+
+p {
+	padding-right: 35px;
+}
+
+.big {
+	font-size: 60px;
+}
+.center {
+	text-align: center;
+}
+
+.middle {
+	margin: auto;
+}
+
+.usp .quote {
+	color: #ffffff;
+}
+
+
